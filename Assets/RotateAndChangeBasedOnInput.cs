@@ -8,6 +8,7 @@ public class RotateAndChangeBasedOnInput : MonoBehaviour
     [SerializeField] float rotateSpeed = 0.0f;
     [SerializeField] float rotateIncrease = 0.01f;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,7 @@ public class RotateAndChangeBasedOnInput : MonoBehaviour
     {
         
         if (Input.GetKeyDown(KeyCode.Space)){
+            
             rotateSpeed += rotateIncrease;
         }
 
